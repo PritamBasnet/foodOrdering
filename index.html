@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Food Ordering 3D Nepal</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-scroll-container>
+    <header class="mobileHeader">
+        <i class="bi bi-list" id="bars"></i>
+        <div style="width: 50%;">
+            <img src="img/logo.svg" width="40%" alt="">
+        </div>
+        <div class="cartIcon">
+            <i class="bi bi-cart"></i>
+            <span>$ 300 (0)</span>
+        </div>
+    </header>
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.svg" width="50%" alt="">
+        </div>
+        <nav class="navBar">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">MENU</a></li>
+                <li><a href="">OFFERS</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">MORE</a></li>
+                <a href="" class="hoverBtn">ORDER
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </ul>
+        </nav>
+        <div class="cartIcon">
+            <i class="bi bi-cart"></i>
+            <span>$ 300</span>
+        </div>
+    </header>
+    <main class="mainSection">
+        <div class="mainContent">
+            <div style="z-index: 2;">
+                <h2>Food that makes you happy.</h2>
+                <span>Take a taste and be in love #foodie.</span>
+                <a href="" class="GrayBackgroundBtn">ORDER NOW</a>
+            </div>
+        </div>
+        <div class="mainImage">
+            <img data-scroll data-scroll-speed="-1.5"
+                src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                width="100%" alt="">
+        </div>
+    </main>
+    <h2 class="titleSection">Special Offers
+    </h2>
+    <div class="swiper mySwiper OfferSweeper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="offerDesign">
+                    <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                    <div class="offerGray">
+                        <h3>Free Burger</h3>
+                        <span>Get free burger just by ordering.</span>
+                        <p>
+                            <i class="bi bi-check2" style="color: green;"></i>&nbsp;Only on Tuesday
+                            <br>
+                            <i class="bi bi-check2" style="color: green;"></i>&nbsp;Healthy & Delicious
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="offerDesign">
+                    <img src="https://images.unsplash.com/photo-1594007654729-407eedc4be65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                    <div class="offerGray">
+                        <h3>Eat Delicious Pizza</h3>
+                        <span>Get free burger just by ordering.</span>
+                        <p>
+                            <i class="bi bi-check2" style="color: green;"></i>&nbsp;Only on Tuesday
+                            <br>
+                            <i class="bi bi-check2" style="color: green;"></i>&nbsp;Healthy & Delicious
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="offerDesign">
+                    <img src="https://images.unsplash.com/photo-1607330289024-1535c6b4e1c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hpY2tlbiUyMHNvdXB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                    <div class="offerGray">
+                        <h3>Be Hot at winter.</h3>
+                        <span>Get free burger just by ordering.</span>
+                        <p>
+                            <i class="bi bi-check2" style="color: green;"></i>&nbsp;Only on Tuesday
+                            <br>
+                            <i class="bi bi-check2" style="color: green;"></i>&nbsp;Healthy & Delicious
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+    <!-- Swiper -->
+    <h2 class="titleSection">Category Sweeper
+    </h2>
+    <div class="swiper mySwiper CategorySweeper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="CategoryImage">
+                    <span class="categoryLayer"></span>
+                    <h3>Burger</h3>
+                    <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="CategoryImage">
+                    <span class="categoryLayer"></span>
+                    <h3>Pizza</h3>
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="CategoryImage">
+                    <span class="categoryLayer"></span>
+                    <h3>Meat Soup</h3>
+                    <img src="https://images.unsplash.com/photo-1534939561126-855b8675edd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNoaWNrZW4lMjBzb3VwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="CategoryImage">
+                    <span class="categoryLayer"></span>
+                    <h3>Chicken Roast</h3>
+                    <img src="https://images.unsplash.com/photo-1598103442097-8b74394b95c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHJvYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="CategoryImage">
+                    <span class="categoryLayer"></span>
+                    <h3>Fried Rice</h3>
+                    <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJpZWQlMjByaWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <h2 class="titleSection">Food Items
+    </h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <div class="foodItem-Wrapper">
+                    <div class="footItem-image">
+                        <img data-scroll data-scroll-speed="-1.5"
+                            src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJ1cmdlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="foodItem-Content">
+                        <span class="HeadingFoodItem">Chicken Burger</span>
+                        <span class="grayishSpan">Chicken,Cheese,Potato,Tomato</span>
+                        <span class="grayishSpan SpanFlex">from &nbsp;&nbsp;<strong style="color: black;">Rs
+                                180</strong>
+                            <div class="makingAuto">
+                                <a href="" class="hoverBtn">ADD TO CART
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="foodItem-Wrapper">
+                    <div class="footItem-image">
+                        <img data-scroll data-scroll-speed="-1.5"
+                            src="https://images.unsplash.com/photo-1481671703460-040cb8a2d909?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRyaW5rc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="foodItem-Content">
+                        <span class="HeadingFoodItem">Flavour Milkshake</span>
+                        <span class="grayishSpan">Milk,Banana,Pineaple,Mango</span>
+                        <span class="grayishSpan SpanFlex">from &nbsp;&nbsp;<strong style="color: black;">Rs
+                                220</strong>
+                            <div class="makingAuto">
+                                <a href="" class="hoverBtn">ADD TO CART
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="foodItem-Wrapper">
+                    <div class="footItem-image">
+                        <img data-scroll data-scroll-speed="-1.5"
+                            src="https://images.unsplash.com/photo-1592977731761-2d58aafef572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpY2tlbiUyMHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="foodItem-Content">
+                        <span class="HeadingFoodItem">Chicken Pizza</span>
+                        <span class="grayishSpan">Chicken,Tomato,Wheat,Mango</span>
+                        <span class="grayishSpan SpanFlex">from &nbsp;&nbsp;<strong style="color: black;">Rs
+                                465</strong>
+                            <div class="makingAuto">
+                                <a href="" class="hoverBtn">ADD TO CART
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="foodItem-Wrapper">
+                    <div class="footItem-image">
+                        <img data-scroll data-scroll-speed="-1.5"
+                            src="https://media.istockphoto.com/id/1161443552/photo/chow-mein-noodles-and-vegetables-dish-with-wooden-chopsticks.jpg?b=1&s=170667a&w=0&k=20&c=G45cj0AvJqBT7d5uPNLaDXISPAlGHNQluDZeaPHjiEQ="
+                            alt="">
+                    </div>
+                    <div class="foodItem-Content">
+                        <span class="HeadingFoodItem">Chowmin</span>
+                        <span class="grayishSpan">Chicken,Agg</span>
+                        <span class="grayishSpan SpanFlex">from &nbsp;&nbsp;<strong style="color: black;">Rs
+                                70</strong>
+                            <div class="makingAuto">
+                                <a href="" class="hoverBtn">ADD TO CART
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="foodItem-Wrapper">
+                    <div class="footItem-image">
+                        <img data-scroll data-scroll-speed="-1.5"
+                            src="https://images.unsplash.com/photo-1561461056-77634126673a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8V2luZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="foodItem-Content">
+                        <span class="HeadingFoodItem">Wine</span>
+                        <span class="grayishSpan">All the Types</span>
+                        <span class="grayishSpan SpanFlex">from &nbsp;&nbsp;<strong style="color: black;">Rs As Per
+                                Brand</strong>
+                            <div class="makingAuto">
+                                <a href="" class="hoverBtn">ADD TO CART
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="foodItem-Wrapper">
+                    <div class="footItem-image">
+                        <img data-scroll data-scroll-speed="-1.5"
+                            src="https://images.unsplash.com/photo-1637273484026-11d51fb64024?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2hpY2tlbiUyMHdpbmdzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="foodItem-Content">
+                        <span class="HeadingFoodItem">Chicken Wings</span>
+                        <span class="grayishSpan">Hen,Turkey,Ostrich</span>
+                        <span class="grayishSpan SpanFlex">from &nbsp;&nbsp;<strong style="color: black;">Rs
+                                130</strong>
+                            <div class="makingAuto">
+                                <a href="" class="hoverBtn">ADD TO CART
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="makingAuto">
+                <a href="javascrip:void(0)" id="sweetAlert" class="hoverBtn">View All
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row shadedRow">
+        <div class="col-md-4 col-12">
+            <div class="importantMessage">
+                <i class="bi bi-box" style="font-size: 42px; color:rgb(245, 245, 245);"></i>
+                <h6>Receive Your Food</h6>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta vero natus, exercitationem
+                    consectetur minus id ullam? Quaerat dolores labore cum.</p>
+            </div>
+        </div>
+        <div class="col-md-4 col-12">
+            <div class="importantMessage">
+                <i class="bi bi-wallet2" style="font-size: 42px; color:rgb(245, 245, 245);"></i>
+                <h6>Payment Method</h6>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta vero natus, exercitationem
+                    consectetur minus id ullam? Quaerat dolores labore cum.</p>
+            </div>
+        </div>
+        <div class="col-md-4 col-12">
+            <div class="importantMessage">
+                <i class="bi bi-cart" style="font-size: 42px; color:rgb(245, 245, 245);"></i>
+                <h6>Choose Your #FAV dish</h6>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta vero natus, exercitationem
+                    consectetur minus id ullam? Quaerat dolores labore cum.</p>
+            </div>
+        </div>
+    </div>
+    <h2 class="titleSection">Our Menu
+    </h2>
+    <div class="row" style="padding: 40px 0;">
+        <div class="col-md-4 col-12" style="margin-top: 20px;">
+            <div>
+                <img src="img/menu-.jpg" width="100%" height="100%" alt="">
+            </div>
+        </div>
+        <div class="col-md-4 col-12" style="margin-top: 20px;">
+            <div>
+                <img src="img/menu2.jpg" width="100%" height="100%" alt="">
+            </div>
+        </div>
+        <div class="col-md-4 col-12" style="margin-top: 20px;">
+            <div>
+                <img src="img/menuu.jpg" width="100%" height="100%" alt="">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <img src="{{ asset('frontend/img/logo.svg') }}" width="30%" alt="">
+            </div>
+            <div class="col-md-4 col-12">
+                <div style="padding: 12px 0;">
+                    <span class="grayishSpan" style="color: gray;font-size:14px;">Address</span>
+                    <br>
+                    <span>Gorkha Galli</span>
+                </div>
+                <div style="padding: 12px 0;">
+                    <span class="grayishSpan" style="color: gray;font-size:14px;">Phone</span>
+                    <br>
+                    <span>+977 9815363240</span>
+                </div>
+                <div style="padding: 12px 0;">
+                    <span class="grayishSpan" style="color: gray;font-size:14px;">Email</span>
+                    <br>
+                    <span>test123@gmail.com</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <h4 class="BottomHeading">Subscribe Us!</h4>
+                <div class="suscribeEmail">
+                    <input type="text" placeholder="  Enter your email">
+                    <button>SUSCRIBE</button>
+                </div>
+                <br>
+                <br>
+                <h4 class="BottomHeading">Social Media!</h4>
+                <div class="socialIcon">
+                    <a href="" class="facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="" class="messenger">
+                        <i class="bi bi-messenger"></i>
+                    </a>
+                    <a href="" class="instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="" class="twitter">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script>
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
+        });
+    </script>
+    <script src="{{ asset('frontend/js/script.js') }}"></script>
+    <!-- Initialize Swiper -->
+    <script src="sweetalert2.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".OfferSweeper", {
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                hide: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+        var categorySweeper = new Swiper(".CategorySweeper", {
+            slidesPerView: 3,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>

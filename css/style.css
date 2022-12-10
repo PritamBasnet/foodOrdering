@@ -1,0 +1,610 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+.row
+{
+    width: 100% !important;
+    overflow-x: hidden;
+    padding: 20px 0;
+}
+/* Header Start */
+.header
+{
+    width: 100%;
+    padding: 20px 52px;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+.header > .logo
+{
+    width: 20%;
+    height: fit-content;
+}
+.header > .navBar
+{
+    width: 70%;
+    height: fit-content;
+}
+.header > .navBar > ul
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    transform: translateY(8px);
+    display: flex;
+    height: fit-content;
+    align-items: center;
+
+}
+.header > .navBar > ul > li
+{
+    padding: 0 16px;
+}
+.header > .navBar > ul > li a
+{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease-in;
+    font-size: 14px;
+}
+.header > .navBar > ul > li a:hover
+{
+    color: #58b064;
+}
+.hoverBtn
+{
+    height: 45px;
+    width: 125px;
+    background-color: #58b064;
+    color: white;
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.hoverBtn:hover
+{
+    color: black;
+    background-color: white;
+}
+.hoverBtn>span
+{
+    transition: 0.4s ease-in;
+}
+.hoverBtn > span:nth-child(1)
+{
+    height: 2px;
+    width: 0%;
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hoverBtn > span:nth-child(2)
+{
+    width: 2px;
+    height: 0%;
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.hoverBtn > span:nth-child(3)
+{
+    height: 2px;
+    width: 0%;
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.hoverBtn > span:nth-child(4)
+{
+    width: 2px;
+    height: 0%;
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.hoverBtn:hover span:nth-child(1)
+{
+    width: 100%;
+}
+.hoverBtn:hover span:nth-child(2)
+{
+    height: 100%;
+}
+.hoverBtn:hover span:nth-child(3)
+{
+    width: 100%;
+}
+.hoverBtn:hover span:nth-child(4)
+{
+    height: 100%;
+}
+.header .cartIcon
+{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header .cartIcon i
+{
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 10px;
+    border-right: 1px solid gray;
+}
+.header .cartIcon span
+{
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+/* Header End */
+
+/* Main Section */
+.mainSection
+{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+.mainSection > .mainContent
+{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #eef6ef;
+}
+.mainSection > .mainContent div
+{
+    padding: 0 12px;
+    left: 10px;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+}
+.mainSection > .mainContent div h2
+{
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif !important;
+}
+.mainSection > .mainContent div span
+{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif !important;
+}
+.mainSection > .mainImage
+{
+    width: 70%;
+    height: 100%;
+}
+.mainSection > .mainImage > img
+{
+    height: 100%;
+    object-fit: cover;
+}
+
+.GrayBackgroundBtn
+{
+    display: inline-block;
+    padding: 18px 32px;
+    height: fit-content;
+    width: fit-content;
+    text-transform: uppercase;
+    background-color: #58b064;
+    color: white;
+    text-decoration: none;
+    transition: 0.453s ease-in;
+}
+.GrayBackgroundBtn:hover
+{
+    color: white;
+    transform: translateY(-8px);
+    box-shadow: #58b064 0px 7px 29px 0px;
+}
+/* Main Section End */
+
+
+/* Offer Section */
+.offerSection
+{
+    width: 130%;
+    padding: 40px 0;
+}
+.titleSection
+{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif !important;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.575);
+    padding: 20px 0;
+    position: relative;
+}
+.OfferSweeper .swiper-wrapper .swiper-slide
+{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+
+/* Food Item wrapper */
+.foodItem-Wrapper
+{
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.foodItem-Wrapper .footItem-image
+{
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+.foodItem-Wrapper .footItem-image img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.foodItem-Wrapper .foodItem-Content
+{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-family: 'Roboto', sans-serif !important;
+}
+.foodItem-Wrapper .foodItem-Content .HeadingFoodItem
+{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 26px;
+}
+.foodItem-Wrapper .foodItem-Content .grayishSpan
+{
+    font-size: 13px;
+    color: gray;
+}
+.SpanFlex
+{
+    display: flex;
+    align-items: center;
+}
+.makingAuto
+{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
+.shadedRow
+{
+    width: 100%;
+    height: fit-content;
+    background-color: #58b064;
+}
+.importantMessage
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 18px;
+}
+.importantMessage > p
+{
+    font-size: 11px;
+    color: rgb(245, 245, 245);
+    text-align: center;
+}
+.importantMessage > h6
+{
+    color: rgb(245, 245, 245);
+}
+
+/* Footer styling */
+.footer
+{
+    padding: 20px 15px;
+}
+.footer .row .col-md-4:nth-child(1)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BottomHeading
+{
+    font-size: 18px;
+    color: gray;
+}
+.suscribeEmail
+{
+    width: 90%;
+    height: 45px;
+    display: flex;
+}
+.suscribeEmail > input
+{
+    width: 80%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.171);
+}
+.suscribeEmail > button
+{
+    height: 100%;
+    width: 20%;
+    border: none;
+    background-color: chartreuse;
+    font-size: 12px;
+    color: white;
+}
+.socialIcon
+{
+    display: flex;
+    gap: 10px;
+}
+.socialIcon > a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+}
+.facebook
+{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #4267B2;
+}
+.messenger
+{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #006AFF;
+}
+.instagram
+{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #8a3ab9;
+}
+.twitter
+{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #1DA1F2;
+}
+
+
+/* Time for mobile header */
+.mobileHeader
+{
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    align-items: center;
+}
+.mobileHeader #bars
+{
+    font-size: 39px;
+    font-weight: bold;
+    color: black;
+}
+.mobileHeader div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobileHeader .cartIcon i
+{
+    font-size: 24px;
+    border-right: 1px solid gray;
+    padding-right: 7px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.OfferSweeper
+{
+    padding: 80px 0;
+}
+.OfferSweeper > .swiper-wrapper > .swiper-slide
+{
+    width: 100%;
+}
+.offerDesign
+{
+    width: 70%;
+    height: 360px;
+    display: flex;
+    position: relative;
+}
+.offerDesign > img
+{
+    width: 50%;
+    height: 100%;
+}
+.offerDesign > .offerGray
+{
+    width: 50%;
+    height: 100%;
+    background-color: #eef6ef;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-family: 'Roboto', sans-serif !important;
+}
+.offerDesign > .offerGray > span
+{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif !important;
+    text-transform: capitalize;
+}
+.offerDesign > .offerGray > p
+{
+    font-size: 19px;
+    text-align: center;
+}
+
+/* Category Sweeper */
+.CategorySweeper
+{
+    padding: 80px 0;
+}
+.CategorySweeper .swiper-wrapper .swiper-slide .CategoryImage
+{
+    height: 320px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.CategorySweeper .swiper-wrapper .swiper-slide .CategoryImage > img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s ease-in;
+}
+.CategorySweeper .swiper-wrapper .swiper-slide .CategoryImage:hover img{
+    transform: scale(1.085);
+}
+.CategorySweeper .swiper-wrapper .swiper-slide .CategoryImage .categoryLayer
+{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(7, 7, 7,0.5);
+}
+.CategorySweeper .swiper-wrapper .swiper-slide .CategoryImage h3
+{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif !important;
+    display: inline-block;
+}
+.CategorySweeper .swiper-wrapper .swiper-slide .CategoryImage h3::after
+{
+    content: "";
+    width: 50%;
+    display: block;
+    height: 3px;
+    background-color: aqua;
+    border-radius: 10px;
+    filter: blur(2px);
+}
+
+@media screen and (max-width:1042px) {
+    .header
+    {
+        display: none;
+    }
+    .mobileHeader
+    {
+        display: flex;
+    }
+}
+@media screen and (max-width:700px)
+{
+    .offerDesign
+    {
+        display: flex;
+        height: fit-content;
+        flex-direction: column !important;
+    }
+    .offerDesign > img
+    {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .offerDesign .offerGray
+    {
+        width: 100%;
+        padding: 20px 0;
+        top: 59%;
+        height: fit-content;
+    }
+}
